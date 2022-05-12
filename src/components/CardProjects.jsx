@@ -42,7 +42,7 @@ const[modalIsOpen,setModalIsOpen] = useState(false)
   const OpenModal= styled.button`
     background: none;
     border: none;
-    color:#fff;
+    color:#000;
     
     cursor: pointer;
     transition: 1s ;
@@ -57,17 +57,15 @@ border-radius: 1rem;
   const Container= styled.div``
   const Flex=styled.div`
   display:flex;
-  
   column-gap: 2rem;
   margin-bottom: 1rem;
-  
-
+  padding: 2rem;
   `;
   const customStyles = {
     content: {
       background:'hsl(207,8%,92%)',
       width:'800px',
-      height:'400px',
+      height:'350px',
       margin:'auto',
 
      
@@ -75,7 +73,7 @@ border-radius: 1rem;
 
   const ProjectCard= styled.div`
   width: 500px;
-  height: 400px;
+  height: 300px;
   position: relative;
   cursor: pointer;
   overflow:hidden;
@@ -86,18 +84,15 @@ border-radius: 1rem;
 
   const Text= styled.div`
   width: 500px;
-  z-index: 0;
- 
-  
+  z-index:1 ;
   padding: 16px 24px 24px 24px;
-  
-  background-color: transparent;
+  background-color:var(--title-color);
   border: none;
-
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
+  
  `;
   const ProjectImg = styled.img`
   width: 100%;
@@ -105,7 +100,7 @@ border-radius: 1rem;
 
   `;
   const ProjectTitle=styled.h3`
-  color:#fff;
+  color:#000;
   opacity: 2;
   `;
   const Button = styled.button`
@@ -134,6 +129,7 @@ border-radius: 1rem;
   p{
     font-size:.813rem;
     margin-bottom: 1rem;
+    color:var(--blue);
   }
   a{
     text-decoration: none;

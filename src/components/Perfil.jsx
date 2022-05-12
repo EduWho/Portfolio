@@ -18,7 +18,7 @@ function Perfil() {
             <h3>Web developer</h3>
             </Text>
             <ProfileSocial>
-                <IconLink href="" target="_blank"><FiGithub/></IconLink>
+                <IconLink href="https://github.com/EduWho?tab=repositories" target="_blank"><FiGithub/></IconLink>
                 <IconLink href="" target="_blank"><AiOutlineLinkedin/></IconLink>
             
             </ProfileSocial>

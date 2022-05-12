@@ -11,8 +11,8 @@ function Skill() {
          </SkillsTitle>
          <SkillsGroup>
            <CardSkills name={"Git"} level={"Basic"}/>
-           <CardSkills name={"HTML"} level={"Basic"}/>
-           <CardSkills name={"CSS"} level={"Basic"}/>
+           <CardSkills name={"HTML"} level={"Intermediate"}/>
+           <CardSkills name={"CSS"} level={"Intermediate"}/>
            <CardSkills name={"JavaScript"} level={"Basic"}/>
            <CardSkills name={"React"} level={"Basic"}/>
            <CardSkills name={"Bootstrap"} level={"Basic"}/>
@@ -25,7 +25,7 @@ function Skill() {
            Backend developer
          </SkillsTitle>
          <SkillsGroup>
-           <CardSkills name={"MySQL"} level={"Basic"}/>
+           <CardSkills name={"MySQL"} level={"Intermediate"}/>
            <CardSkills name={"C"} level={"Basic"}/>
            <CardSkills name={"PHP"} level={"Basic"}/>
            <CardSkills name={"Firabase"} level={"Basic"}/>

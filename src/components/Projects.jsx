@@ -2,9 +2,9 @@
 import styled from 'styled-components'
 import CardProjects from './CardProjects'
 import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.jpg'
-import project3 from '../assets/project3.jpg'
-import project4 from '../assets/project4.jpg'
+import project2 from '../assets/project2.png'
+import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.png'
 
 
 
@@ -17,16 +17,16 @@ function Projects() {
     
         
           <CardProjects
-            img={project1} title={"sssaass"} languages={"HTML/CSS"} git={"www.git.com"}   
+            img={project1} title={"Sunnyside"} languages={"HTML/CSS/Bootstrap"} git={"https://github.com/EduWho/Sunnyside.git"}   
           />
           <CardProjects
-            img={project2} title={"sssaass"} languages={"React/styledComponents"} git={"www.git.com"}    
+            img={project2} title={"MasterCook"} languages={"React/styledComponents"} git={"https://github.com/EduWho/MasterCook_page.git"}    
           />
           <CardProjects
-            img={project3} title={"sssaass"}  languages={"HTML/CSS/bootstrap"} git={"www.git.com"}   
+            img={project3} title={"TodoList"}  languages={"React/CSS"} git={"https://github.com/EduWho/Todo_list.git"}   
           />
           <CardProjects
-            img={project4} title={"sssaass"}  languages={"HTML/CSS"} git={"www.git.com"}   
+            img={project4} title={"Insure_Landing"}  languages={"HTML/CSS"} git={"https://github.com/EduWho/-Insure-landing-page.git"}   
           />
 
 

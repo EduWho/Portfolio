@@ -2,11 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import {BiArrowToBottom} from 'react-icons/bi'
 import {FaWhatsapp} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
+import {HiOutlineMail} from 'react-icons/hi';
+import CV from '../assets/Eduardo.pdf'
+
 function Contact() {
   return (
     <Container id='contact'>
-        <Button>Download CV <BiArrowToBottom/></Button>
+        <Button href={CV}>Download CV <BiArrowToBottom/></Button>
         <Sep>
           <SmallButton href='https://api.whatsapp.com/send?phone=351910478550&text=Hello, more information!'><FaWhatsapp/></SmallButton>
           <SmallButton href='mailto: eduardog.geral@gmail.com'><HiOutlineMail/></SmallButton>
@@ -23,9 +25,10 @@ const Container= styled.section`
     column-gap: 1rem;
     margin-bottom: 2rem;
 `;
-const Button = styled.button`
+const Button = styled.a`
     display:inline-flex;
     align-items: center;
+    text-decoration: none;
     column-gap: 0.5rem;
     background-color:var(--blue);
     color:#fff;
